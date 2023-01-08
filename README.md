@@ -1,1 +1,1 @@
-Web Site for [Mark Malak](http://mpmalak.com)
+Web Site for [Mark Malak](http://malaks-us.github.io/mark)

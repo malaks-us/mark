@@ -31,7 +31,7 @@ show_downloads: false
 # set site author
 author:
   name: mark
-  url: http://mpmalak.com
+  url: http://malaks-us.github.io/mark
 
 # show directory listing
 show_dir_listing: true

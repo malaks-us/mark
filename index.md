@@ -6,7 +6,7 @@ description: Home
 weight: 0
 ---
 
-Welcome to mpmalak.com  
+Welcome to malaks-us.github.io/mark  
 This is official website  
 for Mark Malak a law firm  
 located in New York State  

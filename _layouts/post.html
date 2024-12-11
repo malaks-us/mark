@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+  <br /><br />
+  <div class="date">
+    Written by <a href="{{ author.url }}">{% if page.author %}{{ page.author }}{% else %}{{ site.author.name }}{% endif %}</a> on 
+      {{ page.date | date: '%B %d, %Y @ %H:%M' }}
+  </div>
+  <br />
+  {% include disqus.html %}
+  
+
+</article>

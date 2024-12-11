@@ -1,0 +1,63 @@
+<meta charset="utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+/>
+<meta name="generator" content="CasjaysDev" />
+
+{% if page.excerpt %}
+<meta name="description" content="{{ page.excerpt| strip_html }}" />
+<meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+{% else %}
+<meta name="description" content="{{ site.description }}" />
+<meta property="og:description" content="{{ site.description }}" />
+{% endif %}
+<meta name="author" content="{{ site.name }}" />
+
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="twitter:title" content="{{ page.title }}" />
+{% endif %} {% seo %}
+
+<link rel="shortcut icon" href="{{ site.avatar }}" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+  crossorigin="anonymous"
+/>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://casjaysdev-sites.github.io/static/assets/css/style.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://casjaysdev-sites.github.io/static/assets/css/global.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://casjaysdev-sites.github.io/static/assets/css/social.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://casjaysdev-sites.github.io/static/default-css/casjaysdev.css"
+/>
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="{{ site.name }} - {{ site.description }}"
+  href="{{ site.baseurl }}/feed.xml"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://static.casjay.pro/default-js/errorpages/isup.js"></script>
+<script src="https://casjaysdev-sites.github.io/static/default-js/errorpages/homepage.js"></script>
+<script src="https://casjaysdev-sites.github.io/static/default-js/errorpages/loaddomain.js"></script>

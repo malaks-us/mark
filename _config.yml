@@ -1,0 +1,124 @@
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Mark Malak
+
+# Short bio or description (displayed in the header)
+description: "Law Offices of Mark Malak"
+
+# site tagline
+tagline:
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: "https://avatars2.githubusercontent.com/u/43266386?s=200&v=4"
+
+# Used for Sitemap.xml and your RSS feed
+url:
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl:
+
+# url to your git repo
+repo: ""
+
+# Show githu download link
+show_downloads: false
+
+# set site author
+author:
+  name: mark
+  url: http://malaks-us.github.io/mark
+
+# show directory listing
+show_dir_listing: true
+
+# set default timezone
+timezone: America/New_York
+
+# set locale
+locale: "en"
+
+#
+excerpt_separator: "\n\n"
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  rss: /rss
+  github: casjay-themes
+  twitter: casjaysdev
+  facebook:
+  flickr:
+  instagram:
+  linkedin:
+  pinterest:
+  dribbble:
+  email:
+
+github:
+  repo:
+
+feed:
+  path: /rss
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# !! You don't need to change any of the configuration flags below !!
+permalink: pretty
+paginate: 5
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+collections:
+  posts:
+    output: true
+
+# Use the following plug-ins
+gems:
+  - jemoji
+  - kramdown
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-analytics
+  - jekyll-remote-include
+  - jekyll-menus
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - .keep
+
+theme:

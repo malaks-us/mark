@@ -1,0 +1,30 @@
+---
+layout: page
+title: Contact
+description: Have questions? I have answers.
+form: true
+---
+
+<p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!
+</p>
+
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form action="https://formspree.io/xknqkpjo" method="POST">
+  <label>
+    Your email:<br>
+    <input type="text" placeholder="Email Address" name="_replyto">
+  </label><br>
+  <label>
+    Name:<br>
+    <input type="text" placeholder="Your Name" name="name">
+  </label><br>
+  <label>
+    Your message:<br>
+    <textarea rows="5" placeholder="Message" name="message"></textarea>
+  </label><br>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+</form>
